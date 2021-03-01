@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('Font/Righteous-Regular.ttf');
+}
+body {
+    background: rgb(0, 0, 0);
+}
+
+.card {
+    background-image: url("Images/Background_faded.jpg");
+    background-size: cover;
+}
+.spacer {
+    color: black;
+}
+/* html {
+    background-color: black;
+} */
+#p1Plus1 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #4b8e4be0;
+}
+#p2Plus1 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #4b8e4be0;
+}
+#p1Minus1 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #dc2225be;
+    color: rgb(255, 255, 255);
+}
+#p2Minus1 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #dc2225be;
+    color: rgb(255, 255, 255);
+}
+#p1Minus10 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #dc2225;
+}
+#p2Minus10 {
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.349);
+    background-color: #dc2225;
+}
+#p1Plus1:hover {
+    background-color: #4b8e4b;
+    transition: ease-in;
+}
+#p2Plus1:hover {
+    background-color: #4b8e4b;
+    transition: ease-in;
+}
+#p1Minus1:hover {
+    background-color: #dc2225ea;
+}
+#p2Minus1:hover {
+    background-color: #dc2225ea;
+}
+#p1Minus10:hover {
+    background-color: #a0191c;
+}
+#p2Minus10:hover {
+    background-color: #a0191c;
+}
+#score {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-family: 'Righteous';
+    font-weight: 400;
+    text-shadow: 5px 3px 7px rgb(0, 0, 0);
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous';
+    font-weight: 400;
+    text-shadow: 5px 3px 7px rgb(0, 0, 0);
+    letter-spacing: 0.2rem;
+}
+
+#resetButton {
+    font-family: 'Righteous';
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+    text-shadow: 5px 3px 10px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.322);
+}
+#resetButton:hover {
+    background-color: rgba(0, 0, 0, 0.700);
+}
+#resetButton100 {
+    font-family: 'Righteous';
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+    text-shadow: 5px 3px 10px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.322);
+}
+#resetButton100:hover {
+    background-color: rgba(0, 0, 0, 0.700);
+}
+
+.pointButton {
+    border-radius: 15px;
+}
