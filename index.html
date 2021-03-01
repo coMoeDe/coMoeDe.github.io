@@ -1,0 +1,139 @@
+<!-- is-size-5 is-size-4-tablet is-size-3-desktop is-size-2-widescreen -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Realms Score Keeper</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/f31cc7bb26.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <main class="py-4 spacer">
+        <section class="scores mt-6">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <div class="card">
+                            <header class="card-header">
+                                <p id="title"
+                                    class="card-header-title is-centered is-size-4 is-size-3-desktop is-size-2-widescreen">
+                                    Star Realms Score Keeper</p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <div class="column is-10 is-offset-1">
+                                        <div class="upButtons field is-grouped is-grouped-centered">
+                                            <div class="control is-expanded mr-5">
+                                                <button id="p1Plus1" class="button pointButton plusButton is-fullwidth is-success is-large"><i
+                                                        class="fas fa-caret-up"></i></button>
+                                            </div>
+                                            <div class="control is-expanded ml-5">
+                                                <button id="p2Plus1" class="button pointButton plusButton is-fullwidth is-success is-large"><i
+                                                        class="fas fa-caret-up"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-10 is-offset-1">
+                                        <h1 id="score" class="title is-2 has-text-centered py-5">
+                                            <span id="scoreDisplayP1">50</span>&nbsp;&nbsp;to&nbsp;&nbsp;<span id="scoreDisplayP2">50</span>
+                                        </h1>
+
+                                        <div class="downButtons field is-grouped is-grouped-centered">
+                                            <p class="control is-expanded mr-4 ml-0">
+                                                <button id="p1Minus1"
+                                                    class="button pointButton minusButton is-fullwidth is-danger is-light is-large px-5"><i
+                                                        class="fas fa-caret-down"></i></button>
+                                            </p>
+                                            <p class="control is-expanded ml-4">
+                                                <button id="p2Minus1"
+                                                    class="button pointButton minusButton is-fullwidth is-danger is-light is-large px-5"><i
+                                                        class="fas fa-caret-down"></i></button>
+                                            </p>
+
+                                        </div>
+
+                                        <div class="downButtonsTen field is-grouped is-grouped-centered">
+                                            <p class="control is-expanded mr-4">
+                                                <button id="p1Minus10" class="button pointButton minusButton10 is-fullwidth is-danger is-large"><i
+                                                        class="fas fa-caret-down"></i><i
+                                                        class="fas fa-caret-down"></i></button>
+                                            </p>
+                                            <p class="control is-expanded ml-4">
+                                                <button id="p2Minus10" class="button pointButton minusButton10 is-fullwidth is-danger is-large"><i
+                                                        class="fas fa-caret-down"></i><i
+                                                        class="fas fa-caret-down"></i></button>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-10 is-offset-1">
+                            <footer class="card-footer">
+                                <div class="resetButton buttons column has-text-centered">
+                                    <button id="resetButton"
+                                        class="button is-link is-outlined card-footer-item is-fullwidth is-rounded">New
+                                        Game</button>
+                                </div>
+                            </footer>
+              
+                                <div class="resetButton100 buttons column has-text-centered">
+                                    <button id="resetButton100"
+                                        class="button is-link is-outlined card-footer-item is-fullwidth is-rounded">New
+                                        Game
+                                        100</button>
+                                </div>
+                            </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- <h1>Star Realms Score Keeper</h1>
+    <section class="scores">
+        <div class="upButtons buttons">
+            <button id="p1Plus1" class="button">One up P1</button>
+            <button id="p2Plus1" class="button">One up P2</button>
+        </div>
+        <div>
+            <span id="scoreDisplayP1">50</span> to <span id="scoreDisplayP2">50</span>
+        </div>
+        <div class="downButtons buttons">
+            <button id="p1Minus1" class="button">One down P1</button>
+            <button id="p2Minus1" class="button">One down P2</button>
+        </div>
+        <div class="downButtonsTen buttons">
+            <button id="p1Minus10" class="button">Ten down P1</button>
+            <button id="p2Minus10" class="button">Ten down P2</button>
+        </div>
+        <div class="resetButton buttons">
+            <button id="resetButton" class="button">New Game</button>
+        </div>
+        <div class="resetButton100 buttons">
+            <button id="resetButton100" class="button">New Game 100</button>
+        </div>
+    </section>
